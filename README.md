@@ -33,9 +33,9 @@ These analytics are represented on the spreadsheet in the "Drama Superlatives" s
 **Formatting tools utilized**
 * **Hyperlinked filter views** to enable sorting for users with view-only access
 * **Conditional formatting** to apply color coding
-* **Merged cells** to increase readability
 * **Hidden columns** to house behind-the-scenes calculations
-* Manual **color formatting** to highlight column headings
+* **Frozen rows** and manual **color formatting** to make columns visible
 * **Notes** (rather than comments) to support view-only users
+* * **Merged cells** to increase readability
 * **Text rotation** to maximize readability with tight columns
 * **Hyperlinks** to link to outside source material
