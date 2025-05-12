@@ -1,7 +1,7 @@
 # dramabeans_bean_counts
-This repository houses a collection of user-friendly, interactive dashboards housed on Google Sheets. These spreadsheets display the annual "bean counts" from users of the K drama fan-site, Dramabeans. The "bean count" is an annual event in which, based on the number of newly released K-dramas each viewer has watched, people are allocated a number of "beans" to distribute among their favorite new dramas. An example of this can be found [here](https://dramabeans.com/2024/12/2024-year-in-review-the-bean-count/). While it isn't required, users generally indicate 1) all new shows watched that year, and 2) the number of beans allocated to each show.
+This repository houses a collection of user-friendly, interactive dashboards developed on Google Sheets. These spreadsheets allow non-technical users to identify patterns from the annual "bean counts" from users of the K drama fan-site, Dramabeans. The "bean count" is an annual event in which, based on the number of newly released K-dramas each viewer has watched, people are allocated a number of "beans" to distribute among their favorite new dramas. An example of this can be found [here](https://dramabeans.com/2024/12/2024-year-in-review-the-bean-count/). While it isn't required, users generally indicate 1) all new shows watched that year, and 2) the number of beans allocated to each show.
 
-With the help of another user, I then tallied the total "beans" allocated to each show as a representation of overall viewer enjoyment. Because users often listed shows that they watched but gave their beans to other shows, I was able to compare watch rate with "beaned" rate. This allowed me to extrapolate different attitudes toward dramas and calculate rankings of "superlatives," discovering which dramas were the most popular, the most loved, the most polarizing, the hidden gems, etc. 
+With the help of another user, I then tallied the total "beans" allocated to each show as a representation of overall viewer enjoyment. Because users often listed shows that they watched but gave their beans to other shows, I was able to compare how frequently a drama was watched vs. how frequently it was awarded beans. This allowed me to extrapolate different attitudes toward dramas and calculate rankings of "superlatives," discovering which dramas were the most popular, the most loved, the most polarizing, the hidden gems, etc. 
 
 These analytics are represented on the spreadsheet in the "Drama Superlatives" section.
 
@@ -14,7 +14,7 @@ These analytics are represented on the spreadsheet in the "Drama Superlatives" s
 
 **Navigation notes:**
 * Relevant Tabs
-  1. The first tab focuses on the most interesting analytics (including only complete lists that list all dramas watched)
+  1. The first tab focuses on comparative analytics (including only complete lists that list all dramas watched)
   2. The second tab gives only descriptive statistics for all entries, including those that don't list all watched dramas
   3. The third tab provides a key of terms and calculations
 * The note in the upper-left corner provides additional context and explanation to clarify the spreadsheet
@@ -31,7 +31,7 @@ These analytics are represented on the spreadsheet in the "Drama Superlatives" s
 * Basic calculations (**+, -, *, /**), often nested in multi-layered formulas
 
 **Formatting tools utilized**
-* **Hyperlinked filter views** to enable filtering for users with view-only access
+* **Hyperlinked filter views** to enable sorting for users with view-only access
 * **Conditional formatting** to apply color coding
 * **Merged cells** to increase readability
 * **Hidden columns** to house behind-the-scenes calculations
