@@ -1,9 +1,7 @@
 # dramabeans_bean_counts
-This repository houses a collection of user-friendly, interactive dashboards developed on Google Sheets. These spreadsheets allow non-technical users to identify patterns from the annual "bean counts" from users of the K drama fan-site, Dramabeans. The "bean count" is an annual event in which, based on the number of newly released K-dramas each viewer has watched that year, people are allocated a number of "beans" to distribute among their favorite new dramas. An example of this can be found [here](https://dramabeans.com/2024/12/2024-year-in-review-the-bean-count/). While it isn't required, users generally indicate 1) all new shows watched that year, and 2) the number of beans allocated to each show.
+This repository contains interactive dashboards developed on Google Sheets that analyze annual “bean count” data from the K-drama fan site [Dramabeans](https://dramabeans.com/2024/12/2024-year-in-review-the-bean-count/). These spreadsheets allow non-technical users to identify patterns from the "bean count" (an annual event in which users distribute “beans” to their favorite new dramas based on how many new shows they watched). In this count, users generally indicate 1) all new shows watched that year, and 2) the number of beans allocated to each show.
 
-With the help of another user, I then tallied the total "beans" allocated to each show as a representation of overall viewer enjoyment. Because users often listed shows that they watched but gave their beans to other shows, I was able to compare how frequently a drama was watched in comparison with how frequently it was awarded bean(s) and how many it earned. This allowed me to extrapolate different attitudes toward dramas and calculate rankings of "superlatives," discovering which dramas were the most popular, the most loved, the most polarizing, the hidden gems, etc. 
-
-These analytics are represented on the spreadsheet in the "Drama Superlatives" section.
+By tallying how often each show was *watched* vs. *awarded beans*, these dashboards highlight insights about popularity, disapointment, and polarization. Users can explore rankings such as “Most Popular,” “Most Disliked,” “Most Polarizing,” and “Hidden Gems,” available in the **Drama Superlatives** section.
 
 **Spreadsheets**: 
 * [2024 Bean Count](https://docs.google.com/spreadsheets/d/1dm5vckr77QCW92UzOKAdIPrwPIidBlj_qi8fV4xKdRo/edit?usp=sharing)
@@ -13,29 +11,27 @@ These analytics are represented on the spreadsheet in the "Drama Superlatives" s
 * [2020 Bean Count](https://docs.google.com/spreadsheets/d/1_ie06J185jRj26r_p4ik83A9kkqgjhNNB9FMRaImA4A/edit?usp=sharing)
 
 **Navigation notes:**
-* Relevant Tabs
-  1. The first tab focuses on comparative analytics (including only complete lists that list all dramas watched)
-  2. The second tab gives only descriptive statistics for all entries, including those that don't list all watched dramas
-  3. The third tab provides a key of terms and calculations
-* The note in the upper-left corner provides additional context and explanation to clarify the spreadsheet
-* The filter views hyperlinked in the category headings allow users to sort by different metrics
-* The conditional formatting serves to highlight noteworthy entries, using a gradient to show extremeness of a metric
+* Tabs (found on bottom of screen):
+  - Tab 1: Analytics based on complete user submissions
+  - Tab 2: Descriptive stats for all entries (including incomplete entries)
+  - Tab 3: Glossary of terms, calculations, and categories
+* Refer to the top-left **note box** for additional context and explanations
+* Use filter views (linked in green headers) to sort by metric
+* Color gradients highlight statistical extremes
 
-**Functions utilized**
-* **sum()**, **average()**, **median()**, **countif()** to aggregate data and create summary statistics
-* **rank()** to reduce sensitivity to extreme values, facilitate relative comparisons, and communicate patterns more clearly
-* **if()** and **ifs()** to avoid divide-by-zero errors, filter by range, exclude outliers, and avoid NULL-sorting issues
-* **abs()** in combination with calculations to measure magnitude of difference
-* Boolean operators **and()** and **or()** to combine logical conditions
-* Relational operators (**>**, **<**, **=**, **<>**) to drive conditional logic, particularly in conjunction with **if()**
-* Basic calculations (**+, -, *, /**), often nested in multi-layered formulas
+**Functions Used**
+* `sum()`, `average()`, `median()`, `countif()` to aggregate data and create summary statistics
+* `rank()` to reduce sensitivity to extreme values, facilitate relative comparisons, and communicate patterns more clearly
+* `if()` and `ifs()` to avoid divide-by-zero errors, filter by range, exclude outliers, and avoid NULL-sorting issues
+* `abs()` in combination with calculations to measure magnitude of difference
+* Boolean operators `and()` and `or()` to combine logical conditions
+* Relational operators (`>`, `<`, `=`, `<>`) to drive conditional logic, particularly in conjunction with `if()`
+* Basic calculations (`+`, `-`, `*`, `/`), often nested in multi-layered formulas
 
-**Formatting tools utilized**
-* **Hyperlinked filter views** to enable sorting for users with view-only access
-* **Conditional formatting** to apply color coding
-* **Hidden columns** to house behind-the-scenes calculations
-* **Frozen rows** and manual **color formatting** to make columns visible
+**Formatting Tools Used**
+* **Hyperlinked filter views** for interactive sorting (with view-only access)
+* **Conditional formatting** to visually highlight trends
+* **Hidden columns** for background calculations
+* **Frozen rows**, **merged cells**, **text rotation**, and manual **color formatting** for readability
 * **Notes** (rather than comments) to support view-only users
-* * **Merged cells** to increase readability
-* **Text rotation** to maximize readability with tight columns
 * **Hyperlinks** to link to outside source material
