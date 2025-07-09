@@ -1,7 +1,7 @@
 # dramabeans_bean_counts
 This repository contains interactive dashboards developed in Google Sheets that analyze annual “bean count” data from the K-drama fan site [Dramabeans](https://dramabeans.com/2024/12/2024-year-in-review-the-bean-count/). These spreadsheets help non-technical users to identify patterns from the "bean count" (an end-of-year event in which users distribute “beans” to their favorite new dramas based on how many shows they watched that year). In this count, users generally indicate 1) all new shows watched that year, and 2) the number of beans allocated to each show.
 
-By tallying how often each show was watched vs. awarded beans, these dashboards highlight insights about the dramas that are “Most Popular,” “Most Polarizing,” “Hidden Gems,” etc. These insights are used by site admins to better align content with audience interests and by users seeking drama recommendations.
+Through tallies how often each show was watched vs. awarded beans and calculations of this preference data, these dashboards highlight insights about the dramas that are “Most Popular,” “Most Polarizing,” “Hidden Gems,” etc. These insights are used by site admins to better align content with audience interests and by users seeking drama recommendations.
 
 ### Spreadsheets: 
 * [2024 Bean Count](https://docs.google.com/spreadsheets/d/1dm5vckr77QCW92UzOKAdIPrwPIidBlj_qi8fV4xKdRo/edit?usp=sharing)
